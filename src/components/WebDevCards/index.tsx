@@ -14,53 +14,16 @@ import Link from '@docusaurus/Link';
 
 const WebDevCards = [
   {
-    name: 'v12 Open Source',
+    name: 'Botpress Support Portal',
     url: {
-      page: 'https://github.com/botpress/botpress/',
-      name: 'Go to GitHub Repository',
+      page: 'https://support.botpress.com/support/login',
+      name: 'Go to Botpress Support Portal',
     },
     description:
-      'Install Botpress v12 using our Open Source code',
+      'Support portal description',
   },
   {
-    name: 'Botpress SDK',
-    url: {
-      page: 'https://botpress.com/reference/',
-      name: 'Go to Botpress SDK',
-    },
-    description: 'Understand code architecture used in Botpress',
-  },
-  {
-    name: 'Botpress Learning Center',
-    url: {
-      page: 'https://learn.botpress.com/',
-      name: 'Go to Botpress Learning Center',
-    },
-    description:
-      'Understand Botpress & Conversational AI Concepts for becoming a good Chatbot Developer',
-  },
-  {
-    name: 'Botpress Blogs',
-    url: {
-      page: 'https://botpress.com/blog',
-      name: 'Go to Botpress Blogs',
-    },
-    description:
-      'Essays, opinions, and advice on the act of computer programming from Botpress',
-  },
-
-  {
-    name: 'Botpress Solutions',
-    url: {
-      page: 'https://github.com/botpress/solutions',
-      name: 'Go to Botpress Solutions',
-    },
-    description:
-      ' List of Botpress templates / examples for common problems. Kick start your chatbot development with these ready-to-go custom modules, actions, hooks, and tools!',
-  },
-
-  {
-    name: 'Get Support from the Community',
+    name: 'Community Support',
     url: {
       page: 'https://github.com/botpress/botpress/discussions',
       name: 'Go to Github Community',
@@ -69,14 +32,45 @@ const WebDevCards = [
       'We have an active community helping each other succeed with Botpress. Most of our team is also helping on a best effort basis to make sure you get a great experience.',
   },
   {
-    name: 'Botpress Youtube Channel',
+    name: 'v12 Open Source',
+    url: {
+      page: 'https://github.com/botpress/botpress/',
+      name: 'Go to GitHub Repository',
+    },
+    description:
+      'Install Botpress v12 using our Open Source code on your machine',
+  },
+  {
+    name: 'Learning Center',
+    url: {
+      page: 'https://learn.botpress.com/',
+      name: 'Go to Botpress Learning Center',
+    },
+    description:
+      'Understand Botpress & Conversational AI Concepts for becoming a good Chatbot Developer',
+  },
+  {
+    name: 'Blog',
+    url: {
+      page: 'https://botpress.com/blog',
+      name: 'Go to Botpress Blogs',
+    },
+    description:
+      'Essays, opinions, and advice on the act of computer programming from Botpress',
+  },
+
+
+ 
+  {
+    name: 'Youtube Channel',
     url: {
       page: 'https://www.youtube.com/c/Botpress',
       name: 'Go to Botpress Youtube Channel',
     },
     description:
-      'Youtube playlists for building botpress chatbots',
+      'Curated content for building better chatbots using botpress',
   },
+
 
   
 
@@ -119,7 +113,7 @@ function WebDevCardSingle({ name, url, description }: Props) {
         <div className="card__body">
           <h3 style={{ textAlign: "center" }}>Download Botpress v12 Binaries</h3>
           <p style={{ textAlign: "center" }}>If you are an Enterprise customer or looking to deploy Botpress on your own infrastructure.
-            <br />By downloading, you are agreeing to our <a href='https://botpress.com/privacy'>privacy policy</a> and to our <a href='https://botpress.com/terms'>terms of service</a>.</p>
+            <br />By downloading, you are agreeing to our <a href='https://botpress.com/privacy'>privacy policy</a> and to our <a href='https://botpress.com/company/terms'>terms of service</a>.</p>
         </div>
         <div className="card__footer">
           <div
@@ -140,6 +134,11 @@ function WebDevCardSingle({ name, url, description }: Props) {
     </div><div className="button-group button-group--block padding-horiz--md">
       <Link to="https://s3.amazonaws.com/botpress-binaries/botpress-v12_30_5-linux-x64.zip">
         Linux
+      </Link>
+    </div>
+    <div className="button-group button-group--block padding-horiz--md">
+      <Link to="https://hub.docker.com/r/botpress/server">
+        Docker Image
       </Link>
     </div>
 
