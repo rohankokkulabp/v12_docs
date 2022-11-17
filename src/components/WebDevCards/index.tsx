@@ -56,7 +56,7 @@ const WebDevCards = [
       name: 'Go to Botpress Blogs',
     },
     description:
-      'Essays, opinions, and advice about the Conversational AI space from Botpress',
+      'Essays, opinions, & advice about the Conversational AI space from Botpress',
   },
 
 
@@ -113,7 +113,7 @@ function WebDevCardSingle({ name, url, description }: Props) {
         <div className="card__body">
           <h3 style={{ textAlign: "center" }}>Download Botpress v12 Binaries</h3>
           <p style={{ textAlign: "center" }}>For enterprise customers or individuals looking to deploy Botpress on their own infrastructure. 
-            <br />By downloading, you are agreeing to our <a href='https://botpress.com/privacy'>privacy policy</a> and to our <a href='https://botpress.com/company/terms'>terms of service</a>.</p>
+            <br />By downloading, you agree to our <a href='https://botpress.com/privacy'>privacy policy</a> and <a href='https://botpress.com/company/terms'>terms of service</a>.</p>
         </div>
         <div className="card__footer">
           <div
