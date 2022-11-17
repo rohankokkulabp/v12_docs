@@ -20,7 +20,7 @@ const WebDevCards = [
       name: 'Go to Botpress Support Portal',
     },
     description:
-      'Support portal description',
+      'Engineer-to-engineer support directly from the Botpress team',
   },
   {
     name: 'Community Support',
@@ -29,7 +29,7 @@ const WebDevCards = [
       name: 'Go to Github Community',
     },
     description:
-      'We have an active community helping each other succeed with Botpress. Most of our team is also helping on a best effort basis to make sure you get a great experience.',
+      'An active community of builders helping each other succeed with Botpress',
   },
   {
     name: 'v12 Open Source',
@@ -38,7 +38,7 @@ const WebDevCards = [
       name: 'Go to GitHub Repository',
     },
     description:
-      'Install Botpress v12 using our Open Source code on your machine',
+      'Install our latest Botpress v12 open source on your machine',
   },
   {
     name: 'Learning Center',
@@ -47,7 +47,7 @@ const WebDevCards = [
       name: 'Go to Botpress Learning Center',
     },
     description:
-      'Understand Botpress & Conversational AI Concepts for becoming a good Chatbot Developer',
+      'Understand the fundamental Botpress concepts to become an excellent chatbot developer',
   },
   {
     name: 'Blog',
@@ -56,7 +56,7 @@ const WebDevCards = [
       name: 'Go to Botpress Blogs',
     },
     description:
-      'Essays, opinions, and advice on the act of computer programming from Botpress',
+      'Essays, opinions, and advice about the Conversational AI space from Botpress',
   },
 
 
@@ -68,7 +68,7 @@ const WebDevCards = [
       name: 'Go to Botpress Youtube Channel',
     },
     description:
-      'Curated content for building better chatbots using botpress',
+      'Curated content for building better chatbots with Botpress',
   },
 
 
@@ -112,7 +112,7 @@ function WebDevCardSingle({ name, url, description }: Props) {
       <div className={clsx('card')}>
         <div className="card__body">
           <h3 style={{ textAlign: "center" }}>Download Botpress v12 Binaries</h3>
-          <p style={{ textAlign: "center" }}>If you are an Enterprise customer or looking to deploy Botpress on your own infrastructure.
+          <p style={{ textAlign: "center" }}>For enterprise customers or individuals looking to deploy Botpress on their own infrastructure. 
             <br />By downloading, you are agreeing to our <a href='https://botpress.com/privacy'>privacy policy</a> and to our <a href='https://botpress.com/company/terms'>terms of service</a>.</p>
         </div>
         <div className="card__footer">
